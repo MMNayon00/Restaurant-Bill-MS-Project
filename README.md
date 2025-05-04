@@ -23,7 +23,7 @@ This is a simple console-based restaurant billing system written in C, designed 
 
 ## 👨‍💻 Author
 
-Md. Mostofa Nayon
-Student of Computer Science and Engineering
+Md. Mostofa Nayon,
+Student of Computer Science and Engineering,
 Daffodil International University
 
