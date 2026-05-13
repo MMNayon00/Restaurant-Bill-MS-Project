@@ -110,8 +110,8 @@ int main() {
 
                 if (saveBill == 'y') {
                     fp = fopen("RestaurantBill.dat", "a+");
-                    fwrite(&ord, sizeof(struct orders), 1, fp);
-                    if (fwrite != 0)
+                    size_t result = fwrite(&ord, sizeof(struct orders), 1, fp);
+                    if (result != 0)
                         printf("\nSuccessfully saved\n");
                     else
                         printf("\nError saving\n");
